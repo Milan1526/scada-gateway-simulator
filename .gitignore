@@ -1,0 +1,29 @@
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- C++ / CMake Artifacts ---
+# Ignorišemo build foldere gde idu .exe, .obj i .o fajlovi
+build/
+cxx-core/build/
+cxx-core/out/
+CMakeUserPresets.json
+
+# --- Python ---
+# Ignorišemo virtuelno okruženje i keš fajlove
+python-services/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.env
+
+# --- OS specific files ---
+.DS_Store
+Thumbs.db
